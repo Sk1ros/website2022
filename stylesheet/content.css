@@ -22,17 +22,7 @@ Leere Zeile ist Leertaste
 @media screen and (min-width: 768px) {
 
 #Intro {min-height: 400px;background-color: #f6f8f9;}
-    .intro {
 
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-
-        margin: 0 300px 0 300px;
-        
-        box-sizing: border-box;
-       
-        }
     .container{
             
         display: flex;
@@ -63,19 +53,7 @@ Leere Zeile ist Leertaste
 
     /*
     .intro-1 { }*/
-    .intro-2 {
 
-        display: grid;
-        grid-template-columns: repeat(9,1fr);
-        grid-template-rows: repeat(6,1fr);
-        grid-template-areas:
-        ". . . . . . . . ."
-        ". cloud cloud . shop shop . block block"
-        ". CN CN . SN SN . BN BN"
-        ". . . . . . . . ."
-        ". Portfolio Portfolio . support support . https https"
-        ". PN PN . SUN SUN . ssl ssl";
-        }
 
     .cloud         {grid-area: cloud;text-align: center;}
     .shop          {grid-area: shop;text-align: center;}
@@ -125,16 +103,7 @@ Leere Zeile ist Leertaste
         margin-left: 0;
         text-align: center;
         }
-    .intro-A {
 
-        display: flex;
-        flex-flow: column wrap;
-
-        margin: auto;
-
-        font-family: sans-serif;
-        font-size: larger;
-        }
     .intro-Ü {
 
         margin-top: 50px;
@@ -162,17 +131,6 @@ Leere Zeile ist Leertaste
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-#web-hosting{min-height: 400px;}
-    .web-hosting {
-
-        display: grid;
-        grid-template-columns: 200px 1fr;
-
-        height: 500px;
-        margin: 0 300px 0 300px;
-
-        box-sizing: border-box;
-        }
 
     .web-1 {
 
@@ -183,20 +141,162 @@ Leere Zeile ist Leertaste
     }
     .web-ü {margin:65px auto auto auto;}
 
+    .web-1 > h2 {margin: 90px auto 30px auto;}
+    .web-1  p {
+        
+        margin: 20px auto 30px auto;
 
-#shop-block-pofo{min-height: 400px;background-color: #f6f8f9;}
-     .shop-block-pofo {
+        font-size: large;
+        text-align: center;
 
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    }
 
-        height: 500px;
-        margin: 0 300px 0 300px;
+    .sbp-2 {
+        
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .sbp-2-1 {
 
-        box-sizing: border-box;
-     }   
+        flex: 1;
+        margin: auto;
+
+    }
+
+    .sbp-1 {
+
+        display: flex;
+        flex-flow: column nowrap;
+
+        margin-right: 20px;
+    }
+
+    .sbp-1  h2 {
+        margin: 50px auto 20px auto;
+
+    }
+
+    .sbp-1  p {
+        margin: 20px auto 20px auto;
+
+    }
 
 
+    /* der Css Code von 
+
+    https://ebene11.com/imageslider-ohne-javascript
+    Habe den code NICHT bearbeitet und habe keine Rechte daran.
+
+    */
+    .sliderElements,
+    .sliderElements figure,
+    .sliderControls {
+        margin: 0;
+    }
+     
+    .sliderElements:after {
+        content: ".";
+        display: block;
+        height: .1px;
+        clear: both;
+        visibility: hidden;
+        font-size: 0;
+        overflow: hidden;
+    }
+     
+    .cssSlider {
+        overflow-x: hidden;
+    }
+     
+    .sliderElements {
+        list-style: none;
+        position: relative;
+        left: 0;
+        width: 400%;
+        margin-bottom: .8em;
+        padding: 0;
+        -webkit-transition: left .8s ease-in-out;
+        -moz-transition: left .8s ease-in-out;
+        -o-transition: left .8s ease-in-out;
+        transition: left .8s ease-in-out;
+    }
+     
+    .sliderElements > li {
+        float: left;
+        width: 25%;
+        position: relative;
+    }
+     
+    #slide02:checked ~ .sliderElements {
+        left: -100%;
+    }
+     
+    #slide03:checked ~ .sliderElements {
+        left: -200%;
+    }
+     
+    #slide04:checked ~ .sliderElements {
+        left: -300%;
+    }
+     
+    /* Bildunterschrift auf dem Bild positionieren */
+    .sliderElements figcaption {
+        display: block;
+        color: #fff;
+        position: absolute;
+        left: 0;
+        bottom: 1em;
+        padding: .4em;
+        background: rgba(0,0,0,.5);
+    }
+     
+    /* Bilder responsive */
+    .sliderElements img {
+        width: 100%;
+        height: auto;
+    }
+     
+     
+    /* inputs aus dem Blickfeld schieben */
+    .cssSlider input {
+        position: absolute;
+        left: -99999px;
+    }
+     
+    /* mittige Ausrichtung der Controls - funktioniert im Zusammenspiel mit inline-block */
+    .sliderControls {
+        text-align: center;
+    }
+     
+    /* Controls nebeneinander bringen */
+    .sliderControls li {
+        display: inline-block;
+    }
+     
+    /* Controls auf einheitliche Maße bringen und die Ecken abrunden */
+    .sliderControls label {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        border-radius: 50%;
+        display: block;
+        cursor: pointer;
+        background: #68B022;
+        color: #68B022;
+    }
+     
+    /* Attributselektor und indirekter Nachfahrkombinator zum ansteuern der labels */
+    .sliderControls label:hover,
+    #slide01:checked ~ .sliderControls label[for="slide01"],
+    #slide02:checked ~ .sliderControls label[for="slide02"],
+    #slide03:checked ~ .sliderControls label[for="slide03"],
+    #slide04:checked ~ .sliderControls label[for="slide04"] {
+        background: #ddd;
+        color: #ddd;
+    }
+
+    /* Ende des Codes von Jemanden Anders */
 
 
 
