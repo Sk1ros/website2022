@@ -1,48 +1,73 @@
+/*
+Hier steht aller form codes wie Karten usw.
+
+Aufbau einer Css
+
+[.][#] Name {
+
+    [display]
+    [Grid und Flex Config]
+
+    [Ausrichtung]
+
+    [Config]
+            }
+
+Leere Zeile ist Leertaste
+
+
+*/
+
 @media screen and (min-width: 768px) {
 
     
     .cart-1 > h2 {
-        font-size: 22px;
+
         text-align: left;
         margin: 50px auto auto 20px;
 
+        font-size: 22px;
     }
     
     .web-hosting_erkl {
         
-        font-size: 15px;
         text-align: left;
-        color: gray;
         margin: 10px auto auto 20px;
 
+        color: gray;
+        font-size: 15px;
     }
-    .cart-2 {display: flex;
+    .cart-2 {
+
+        display: flex;
         flex-flow: column nowrap;
     }
     .cart-2 h3 {
-        font-size: 40px;
+
         text-align: left;
         margin: 50px auto auto 20px;
 
+        font-size: 40px;
     }
     .cart-2 h4 {
 
         text-align: left;
         margin-left: 20px;
         margin-top: 0;
-
     }
 
     .button {
-        background-color: #4CAF50; /* Green */
-        border: none;
-        color: white;
+
+        display: inline-block;
+
         padding: 15px 32px;
         text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
 
+        color: white;
+        font-size: 16px;
+        background-color: #4CAF50; /* Green */
+        border: none;
+        text-decoration: none;
     }
     
     

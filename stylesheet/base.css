@@ -1,7 +1,32 @@
+/*
+Hier steht aller Standart Config.
+
+Aufbau einer Css
+
+[.][#] Name {
+
+    [display]
+    [Grid und Flex Config]
+
+    [Ausrichtung]
+
+    [Config]
+            }
+
+Leere Zeile ist Leertaste
+
+
+*/
+
+
 @media screen and (min-width: 768px){
+
 *, ::after, ::before {box-sizing: border-box;}
+
 body {margin: 0;padding: 0;}
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {display: block;}
+
 .float-left{float: left;}
 .float-right{float: right;}
 

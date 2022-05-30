@@ -1,32 +1,60 @@
+/*
+Hier steht aller Content mit den inhalt
+
+Aufbau einer Css
+
+[.][#] Name {
+
+    [display]
+    [Grid und Flex Config]
+
+    [Ausrichtung]
+
+    [Config]
+            }
+
+Leere Zeile ist Leertaste
+
+
+*/
+
+
 @media screen and (min-width: 768px) {
 
 #Intro {min-height: 400px;background-color: #f6f8f9;}
     .intro {
+
         display: grid;
-        box-sizing: border-box;
-        margin: 0 300px 0 300px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
+
+        margin: 0 300px 0 300px;
+        
+        box-sizing: border-box;
+       
         }
     .container{
             
         display: flex;
+
         align-items: center;
         justify-content: center;
+
+        overflow: hidden;
         }
     .Cart-Container{
-        overflow: hidden;
+        
+        display: flex;
+        flex-flow: column nowrap;
+
         width: 30%;
         height: 85%;
         margin: 40px auto;
 
-        display: flex;
-        flex-flow: column nowrap;
-
-
         border-radius: 20px;
         border: 1px solid rgb(211, 206, 206);
         background-color: white;
+        overflow: hidden;
         /*
         box-shadow: 0px 25px 40px #1687d933;
         */
@@ -36,6 +64,7 @@
     /*
     .intro-1 { }*/
     .intro-2 {
+
         display: grid;
         grid-template-columns: repeat(9,1fr);
         grid-template-rows: repeat(6,1fr);
@@ -48,90 +77,123 @@
         ". PN PN . SUN SUN . ssl ssl";
         }
 
-    .cloud         {text-align: center;grid-area: cloud;}
-    .shop          {text-align: center;grid-area: shop;}
-    .block         {text-align: center;grid-area: block;}
-    .Portfolio     {text-align: center;grid-area: Portfolio;}
-    .support       {text-align: center;grid-area: support;}
-    .https         {text-align: center;grid-area: https;}
+    .cloud         {grid-area: cloud;text-align: center;}
+    .shop          {grid-area: shop;text-align: center;}
+    .block         {grid-area: block;text-align: center;}
+    .Portfolio     {grid-area: Portfolio;text-align: center;}
+    .support       {grid-area: support;text-align: center;}
+    .https         {grid-area: https;text-align: center;}
     .cloudName {
+
+        grid-area: CN;
+
         margin-left: -15px;
         text-align: center;
-        grid-area: CN;
         }
     .shopName {
-        margin-left: 0;
-        text-align: center;
+
         grid-area: SN;
+
+        margin-left: 0;
+        text-align: center; 
         }
     .blockName {
-        margin-left: 0;
-        text-align: center;
+
         grid-area: BN;
+
+        margin-left: 0;
+        text-align: center;    
         }
     .PortfolioName{
+
+        grid-area: PN;
+
         margin-left: 0;
         text-align: center;
-        grid-area: PN;
         }
     .supportName{
+
+        grid-area: SUN;
+
         margin-left: 0;
         text-align: center;
-        grid-area: SUN;
         }
     .httpsName{
+
+        grid-area: ssl;
+
         margin-left: 0;
         text-align: center;
-        grid-area: ssl;
         }
     .intro-A {
+
         display: flex;
         flex-flow: column wrap;
+
         margin: auto;
+
         font-family: sans-serif;
         font-size: larger;
         }
     .intro-Ü {
+
         margin-top: 50px;
         margin-bottom: 15px;
-        color:darkturquoise;
+
         text-shadow: 1px 1px 2px rgb(209, 207, 205);
         font-family:sans-serif;
-       font-size: 25px;
+        font-size: 25px;
+        color:darkturquoise;
        }
     .intro-A-A {
+
         margin: auto;
         padding: 0;
+
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 38px;
         }
     .intro-A-B {
+
         margin-top: 10px;
         padding: 0;
+
         color:lightgreen;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
 #web-hosting{min-height: 400px;}
     .web-hosting {
+
         display: grid;
-        box-sizing: border-box;
+        grid-template-columns: 200px 1fr;
+
         height: 500px;
         margin: 0 300px 0 300px;
-        grid-template-columns: 200px 1fr;
+
+        box-sizing: border-box;
         }
+
+    .web-1 {
+
+        display: flex;
+        flex-flow: column nowrap;
+
+        overflow: hidden;
+    }
+    .web-ü {margin:65px auto auto auto;}
 
 
 #shop-block-pofo{min-height: 400px;background-color: #f6f8f9;}
      .shop-block-pofo {
+
         display: grid;
-        box-sizing: border-box;
-        height: 500px;
-        margin: 0 300px 0 300px;
         grid-template-columns: 1fr 1fr;
 
+        height: 500px;
+        margin: 0 300px 0 300px;
 
-
+        box-sizing: border-box;
      }   
 
 
