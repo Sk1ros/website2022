@@ -1,0 +1,20 @@
+@media screen and (min-width: 768px) {
+
+    #header ul {
+        display: flex;
+        float: right;
+        flex-flow: row nowrap;
+        margin-right: 50px;
+        list-style-type: none;
+        }
+
+        #header ul li {
+        flex: 1;
+        min-width: 80px;
+        margin: auto;
+        padding: 5px;
+        text-align: center;
+                }
+
+
+}

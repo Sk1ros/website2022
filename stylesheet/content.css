@@ -1,0 +1,144 @@
+@media screen and (min-width: 768px) {
+
+#Intro {min-height: 400px;background-color: #f6f8f9;}
+    .intro {
+        display: grid;
+        box-sizing: border-box;
+        margin: 0 300px 0 300px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        }
+    .container{
+            
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+    .Cart-Container{
+        overflow: hidden;
+        width: 30%;
+        height: 85%;
+        margin: 40px auto;
+
+        display: flex;
+        flex-flow: column nowrap;
+
+
+        border-radius: 20px;
+        border: 1px solid rgb(211, 206, 206);
+        background-color: white;
+        /*
+        box-shadow: 0px 25px 40px #1687d933;
+        */
+        }
+
+
+    /*
+    .intro-1 { }*/
+    .intro-2 {
+        display: grid;
+        grid-template-columns: repeat(9,1fr);
+        grid-template-rows: repeat(6,1fr);
+        grid-template-areas:
+        ". . . . . . . . ."
+        ". cloud cloud . shop shop . block block"
+        ". CN CN . SN SN . BN BN"
+        ". . . . . . . . ."
+        ". Portfolio Portfolio . support support . https https"
+        ". PN PN . SUN SUN . ssl ssl";
+        }
+
+    .cloud         {text-align: center;grid-area: cloud;}
+    .shop          {text-align: center;grid-area: shop;}
+    .block         {text-align: center;grid-area: block;}
+    .Portfolio     {text-align: center;grid-area: Portfolio;}
+    .support       {text-align: center;grid-area: support;}
+    .https         {text-align: center;grid-area: https;}
+    .cloudName {
+        margin-left: -15px;
+        text-align: center;
+        grid-area: CN;
+        }
+    .shopName {
+        margin-left: 0;
+        text-align: center;
+        grid-area: SN;
+        }
+    .blockName {
+        margin-left: 0;
+        text-align: center;
+        grid-area: BN;
+        }
+    .PortfolioName{
+        margin-left: 0;
+        text-align: center;
+        grid-area: PN;
+        }
+    .supportName{
+        margin-left: 0;
+        text-align: center;
+        grid-area: SUN;
+        }
+    .httpsName{
+        margin-left: 0;
+        text-align: center;
+        grid-area: ssl;
+        }
+    .intro-A {
+        display: flex;
+        flex-flow: column wrap;
+        margin: auto;
+        font-family: sans-serif;
+        font-size: larger;
+        }
+    .intro-Ü {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        color:darkturquoise;
+        text-shadow: 1px 1px 2px rgb(209, 207, 205);
+        font-family:sans-serif;
+       font-size: 25px;
+       }
+    .intro-A-A {
+        margin: auto;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 38px;
+        }
+    .intro-A-B {
+        margin-top: 10px;
+        padding: 0;
+        color:lightgreen;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+#web-hosting{min-height: 400px;}
+    .web-hosting {
+        display: grid;
+        box-sizing: border-box;
+        height: 500px;
+        margin: 0 300px 0 300px;
+        grid-template-columns: 200px 1fr;
+        }
+
+
+#shop-block-pofo{min-height: 400px;background-color: #f6f8f9;}
+     .shop-block-pofo {
+        display: grid;
+        box-sizing: border-box;
+        height: 500px;
+        margin: 0 300px 0 300px;
+        grid-template-columns: 1fr 1fr;
+
+
+
+     }   
+
+
+
+
+
+
+
+
+}
