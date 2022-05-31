@@ -18,7 +18,7 @@ Leere Zeile ist Leertaste
 
 */
 @media screen and (min-width: 768px) {
-#header {
+    #header {
 
           height: 70px;
           max-height: 70px;
@@ -44,7 +44,7 @@ Leere Zeile ist Leertaste
           margin-left: 300px;
                 }
 
-          .intro {
+        .intro {
 
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -55,7 +55,7 @@ Leere Zeile ist Leertaste
           box-sizing: border-box;
                    
                 }
-          .intro-2 {
+        .intro-2 {
 
           display: grid;
           grid-template-columns: repeat(9,1fr);
@@ -69,7 +69,7 @@ Leere Zeile ist Leertaste
           ". PN PN . SUN SUN . ssl ssl";
                }
 
-          .intro-A {
+        .intro-A {
 
           display: flex;
           flex-flow: column wrap;
@@ -80,7 +80,7 @@ Leere Zeile ist Leertaste
           font-size: larger;
                }
      #web-hosting{min-height: 400px;}
-          .web-hosting {
+        .web-hosting {
            
           display: grid;
           grid-template-columns: 200px 1fr;
@@ -92,7 +92,7 @@ Leere Zeile ist Leertaste
                }
 
      #shop-block-pofo{min-height: 400px;background-color: #f6f8f9;}
-          .shop-block-pofo {
+        .shop-block-pofo {
           
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -111,8 +111,18 @@ Leere Zeile ist Leertaste
           overflow: hidden;       
            }
 
-#support {min-height: 400px;background-color: #ffffff ;}
-
+    #support {min-height: 400px;background-color: #ffffff ;}
+        
+        .support-2 { 
+        
+            display:grid;
+            grid-template-rows:2fr 1fr;
+            grid-template-columns:1fr 400px;
+            grid-template-areas:
+                "bild bild-2"
+                "inhalt bild-2";
+            margin: 0 300px 0 300px;
+    }
             
 
 
