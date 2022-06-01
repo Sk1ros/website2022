@@ -26,7 +26,7 @@ Leere Zeile ist Leertaste
           background-color: #ffffff ;
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09);
           overflow: hidden;
-        }
+            }
 
         .fix {
 
@@ -79,7 +79,7 @@ Leere Zeile ist Leertaste
           font-family: sans-serif;
           font-size: larger;
                }
-     #web-hosting{min-height: 400px;}
+     #web-hosting{min-height: 400px;background-color: #f6f8f9 ;}
         .web-hosting {
            
           display: grid;
@@ -89,9 +89,9 @@ Leere Zeile ist Leertaste
           margin: 0 300px 0 300px;
            
           box-sizing: border-box;
-               }
+                    }
 
-     #shop-block-pofo{min-height: 400px;background-color: #f6f8f9;}
+     #shop-block-pofo{min-height: 400px;background-color: #ffffff ;}
         .shop-block-pofo {
           
           display: grid;
@@ -101,7 +101,7 @@ Leere Zeile ist Leertaste
           margin: 0 300px 0 300px;
           
           box-sizing: border-box;
-          } 
+                        } 
 
           .shop-block-pofo {
         
@@ -109,7 +109,7 @@ Leere Zeile ist Leertaste
           grid-template-columns: 1fr 3fr;
                
           overflow: hidden;       
-           }
+                            }
 
     #support {min-height: 400px;background-color: #ffffff ;}
         
@@ -121,9 +121,86 @@ Leere Zeile ist Leertaste
             grid-template-areas:
                 "bild bild-2"
                 "inhalt bild-2";
-            margin: 0 300px 0 300px;
-    }
             
+            margin: 0 300px 0 300px;
+                    }
+            
+     #footer {min-height: 300px;background-color: dimgrey ;}
+    .footer {
+        
+            display:grid;
+            grid-template-columns:1fr 1fr 1fr 1fr;
+            grid-template-areas:
+                "adr web leist folg";
+
+        
+            margin: 0 300px 0 300px;
+            padding-top: 60px;
+        
+                }
+    .footer-c{
+        
+        display: flex;
+        flex-flow:column nowrap;
+        
+
+        
+        
+                }
+       
+    .footer-c > h2 {
+        
+
+        margin: 20px auto 20px 0;
+            
+        color:darkturquoise;
+                    }
+    .footer-c ul {padding:0;} 
+    .footer-c li {
+            
+        list-style-type:none;
+        margin:auto   
+                    }
+    .footer-c a {
+        
+        text-decoration:none;
+        color: aliceblue;
+        
+                    }
+    
+    .footer-f{
+        
+        display:grid;
+        grid-template-rows:1fr 1fr;
+                }
+    
+    .footer-f > h2{
+        
+        padding: 0;
+        
+        text-align:center;
+        color:darkturquoise;
+                    }
+    
+    .footer-f ul {
+        
+        display:flex;
+        flex-flow:row nowrap;
+       
+        
+        list-style-type:none;
+        
+                    }
+    .footer-f li {
+        
+        flex:1;
+                    }
+    .footer-f a {
+        
+        text-decoration:none;
+                    }
+    
+    
+                                        }
 
 
-}
