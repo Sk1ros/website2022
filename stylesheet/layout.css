@@ -43,6 +43,13 @@ Leere Zeile ist Leertaste
           margin: 20px;
           margin-left: 300px;
                 }
+        #Intro {
+            
+            min-height: 400px;
+            background-image: url(../images/background/vivid-blurred-colorful-background.jpg);
+            border-bottom: 1px solid rgb(211, 206, 206);
+            box-shadow: 0 2px 4px 0px rgba(0, 0, 255, .2);
+                }
 
         .intro {
 
@@ -53,6 +60,7 @@ Leere Zeile ist Leertaste
           margin: 0 300px 0 300px;
                     
           box-sizing: border-box;
+            
                    
                 }
         .intro-2 {
@@ -79,7 +87,14 @@ Leere Zeile ist Leertaste
           font-family: sans-serif;
           font-size: larger;
                }
-     #web-hosting{min-height: 400px;background-color: #f6f8f9 ;}
+     #web-hosting{
+         
+         min-height: 400px;
+         
+         background-image: url(../images/background/vivid-blurred-colorful-background.jpg);
+         border: 1px solid rgb(211, 206, 206);
+
+                    }
         .web-hosting {
            
           display: grid;
@@ -91,7 +106,7 @@ Leere Zeile ist Leertaste
           box-sizing: border-box;
                     }
 
-     #shop-block-pofo{min-height: 400px;background-color: #ffffff ;}
+     #shop-block-pofo{min-height: 400px;background-image: url(../images/)}
         .shop-block-pofo {
           
           display: grid;
