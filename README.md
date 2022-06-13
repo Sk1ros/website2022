@@ -1,9 +1,9 @@
 <h1>Verzeichnis</h1>
 <a href="https://github.com/Sk1ros/website2022#info-%C3%BCber-projekt">1.Info über Projekt</a><br>
-<a href="https://github.com/Sk1ros/website2022/main/README.md#vorarbeit">1.1 Vorarbeit</a><br>
-<a href="https://github.com/Sk1ros/website2022/main/README.md#stand">2.Stand</a><br>
-<a href="https://github.com/Sk1ros/website2022/main/README.md#to-do">3.To Do</a><br>
-<a href="https://github.com/Sk1ros/website2022/main/README.md#notizen">4.Notizen</a><br>
+<a href="https://github.com/Sk1ros/website2022#vorarbeit">1.1 Vorarbeit</a><br>
+<a href="https://github.com/Sk1ros/website2022#stand">2.Stand</a><br>
+<a href="https://github.com/Sk1ros/website2022#to-do">3.To Do</a><br>
+<a href="https://github.com/Sk1ros/website2022#notizen">4.Notizen</a><br>
 
 # website2022
 
