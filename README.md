@@ -1,19 +1,29 @@
-# website2022
-Website für das selbständige Testen und Übungen von Programmieren
+<h1>Verzeichnis</h1>
+<a href="https://github.com/Sk1ros/website2022/edit/main/README.md#info-%C3%BCber-projekt">1.Info über Projekt</a><br>
+<a href="https://github.com/Sk1ros/website2022/edit/main/README.md#vorarbeit">1.1 Vorarbeit</a><br>
+<a href="https://github.com/Sk1ros/website2022/edit/main/README.md#stand">2.Stand</a><br>
+<a href="https://github.com/Sk1ros/website2022/edit/main/README.md#to-do">3.To Do</a><br>
+<a href="https://github.com/Sk1ros/website2022/edit/main/README.md#notizen">4.Notizen</a><br>
 
-ACHTUNG!!!!!!
+# website2022
+
+
+<b>ACHTUNG!!!!!!</b>
 
 Dieser Code ist ERSTMAL nicht für den gebrauch gemacht worden, sondern für das Selbständige Lernen und für besseres und geordnetes Coden.
 
+
 Bei Fragen dazu bitte eine PM an mich.
 
-[Info über Projekt]
+<h2>Info über Projekt</h2>
+<br>
+Die Website für das selbständige Testen und Übung von Programmieren getestet wird es in ein Projekt für den Verkauf von Website und Webspace.
 
- [Vorarbeit] 
-  -3h Code Geschrieben
-  -4h Design überlegt
+ <h3>Vorarbeit</h3>
+  -3h Code Geschrieben<br>
+  -4h Design überlegt<br>
 
-[Stand]
+<h2>Stand</h2>
 
 -Header [75%]<br>
 -Intro [50%]<br>
@@ -22,7 +32,7 @@ Bei Fragen dazu bitte eine PM an mich.
 -Support [30%]<br>
 -Footer [80%]<br>
 
-[To Do]
+<h2>To Do</h2>
 
 -Multiple pages im Ordern pages und änderungen der Ordnerstruktur<br>
 -Suchfunktion einbauen (wenn ich mit javascript anfange(Ab July anfangen))<br>
@@ -30,6 +40,10 @@ Bei Fragen dazu bitte eine PM an mich.
 -Den Code verkleinern das er übersichtlicher ist<br>
 
 
-[Notizen]
--
+<h2>Notizen</h2>
+
+-Die Änderungen [Arbeit von 31.05.2022] Fehlt die Arbeitszeit sie beträgt 2h
+
+
+Stand der README 13.06.2022
 
