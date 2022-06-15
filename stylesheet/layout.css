@@ -43,6 +43,17 @@ Leere Zeile ist Leertaste
           margin: 20px;
           margin-left: 300px;
                 }
+        #überschrift{
+            
+            margin-top:70px;
+            min-height: 200px;
+            max-height: 400px;
+            
+            background-image: url(../images/background/vivid-blurred-colorful-background.jpg);
+            border-bottom: 1px solid rgb(211, 206, 206);
+            box-shadow: 0 2px 4px 0px rgba(0, 0, 255, .2);
+    }
+        #inhalt{min-height: 500px;}
         #Intro {
             
             min-height: 400px;

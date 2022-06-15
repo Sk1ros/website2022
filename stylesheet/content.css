@@ -346,6 +346,17 @@ Leere Zeile ist Leertaste
     .inh-text {margin: auto}
     .supp-b{grid-area:bild-2;overflow: hidden}
 
-
+    .über-intro {
+        
+        display:flex;
+        flex-flow:column nowrap; }   
+    
+    .überH {
+        
+        margin: 60px auto 40px auto;
+    
+        font-size:20px;
+    }
+    .überb {margin:auto;}
 
 }
